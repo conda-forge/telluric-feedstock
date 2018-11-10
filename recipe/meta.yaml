@@ -1,6 +1,6 @@
 {% set name = "telluric" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "6d3e1edec9aa165b91abf2631593499900c1833076ee13d7dcd97489c71e6fce" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "c11b626e9bae4e3c661d8500f5f3ab0a2fa233281b34247ef5aa4f076a51e264" %}
 
 package:
   name: {{ name|lower }}
@@ -26,12 +26,12 @@ requirements:
     - python >=3.4
     - affine
     - dsnparse
-    - fiona >=1.7.2,<2.*
+    - fiona >=1.8.0,<2.*
     - folium
     - ipyleaflet
     - pyproj
     - shapely >=1.6.3,<2.*
-    - rasterio >=1.0,<1.0.3
+    - rasterio >=1.0.3.post1,<2.*
     - pillow
     - mercantile >=0.10.0
     - matplotlib
@@ -61,3 +61,4 @@ about:
 extra:
   recipe-maintainers:
     - Juanlu001
+    - drnextgis
