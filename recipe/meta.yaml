@@ -27,7 +27,7 @@ requirements:
     - affine
     - dsnparse
     - fiona >=1.8.1,<2.*
-    - folium
+    - folium >=0.6.0
     - ipyleaflet
     - pyproj
     - shapely >=1.6.3,<2.*
@@ -37,6 +37,7 @@ requirements:
     - matplotlib
     - boltons
     - imageio
+    - lxml
 
 test:
   imports:
