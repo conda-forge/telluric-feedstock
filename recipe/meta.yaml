@@ -26,12 +26,12 @@ requirements:
     - python >=3.4
     - affine
     - dsnparse
-    - fiona >=1.8.1,<2.*
+    - fiona >=1.8.4,<2.*
     - folium >=0.6.0
     - ipyleaflet
     - pyproj
     - shapely >=1.6.3,<2.*
-    - rasterio >=1.0.10,<2.*
+    - rasterio >=1.0.13,<2.*
     - pillow
     - mercantile >=0.10.0
     - matplotlib
