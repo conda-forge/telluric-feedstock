@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.4
+    - python >=3.5
     - setuptools
     - pip
 
   run:
-    - python >=3.4
+    - python >=3.5
     - affine
     - dsnparse
     - fiona >=1.8.4,<2
