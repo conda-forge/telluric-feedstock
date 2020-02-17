@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
   noarch: python
 
@@ -34,7 +34,7 @@ requirements:
     - rasterio >=1.0.21,<2
     - pillow
     - mercantile >=0.10.0
-    - matplotlib
+    - matplotlib-base
     - boltons
     - imageio
     - lxml
