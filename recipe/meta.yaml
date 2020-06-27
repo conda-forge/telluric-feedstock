@@ -1,6 +1,6 @@
 {% set name = "telluric" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "6cfd9f2097357332f0a52210ad73a53fb8d09d43f2fec78a6f510bfe830f6c46" %}
+{% set version = "0.11.1" %}
+{% set sha256 = "9cbddfd87480e3edff0b764f25df22dfbe1f298bb2281794f85378abdfd8cba9" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   noarch: python
 
 requirements:
@@ -48,7 +48,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Interactive geospatial data manipulation in Python'
+  summary: Interactive geospatial data manipulation in Python
   description: |
     telluric is a MIT licensed Python library to manage vector and raster
     geospatial data in an interactive and easy way. It lets you read the common
