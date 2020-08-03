@@ -5,7 +5,7 @@ Home: http://github.com/satellogic/telluric
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Interactive geospatial data manipulation in Python
 
@@ -122,6 +122,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@Juanlu001](https://github.com/Juanlu001/)
+* [@astrojuanlu](https://github.com/astrojuanlu/)
 * [@drnextgis](https://github.com/drnextgis/)
 
