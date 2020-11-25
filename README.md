@@ -5,9 +5,13 @@ Home: http://github.com/satellogic/telluric
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/telluric-feedstock/blob/master/LICENSE.txt)
 
 Summary: Interactive geospatial data manipulation in Python
+
+Development: https://github.com/satellogic/telluric
+
+Documentation: http://telluric.readthedocs.io/
 
 telluric is a MIT licensed Python library to manage vector and raster
 geospatial data in an interactive and easy way. It lets you read the common
