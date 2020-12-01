@@ -21,6 +21,7 @@ requirements:
     - python >=3.5
     - setuptools
     - pip
+    - versioneer
 
   run:
     - python >=3.5
