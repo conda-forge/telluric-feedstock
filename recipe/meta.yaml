@@ -1,6 +1,6 @@
 {% set name = "telluric" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "0b108b8e22da6f22ad4c56c5eb1d98cfa3ef44b147e70bca477cbed74ff565ee" %}
+{% set version = "0.13.3" %}
+{% set sha256 = "44aa42055e0f7e8c7d1ffffa2693bfeb0ea3542fea8d52771412829d51e6a34a" %}
 
 package:
   name: {{ name|lower }}
