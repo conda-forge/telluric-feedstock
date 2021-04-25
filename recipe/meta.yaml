@@ -20,7 +20,7 @@ requirements:
   host:
     - python >=3.5
     - setuptools
-    - versioneer
+    - versioneer-518
     - pip
 
   run:
