@@ -1,6 +1,6 @@
 {% set name = "telluric" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "0b108b8e22da6f22ad4c56c5eb1d98cfa3ef44b147e70bca477cbed74ff565ee" %}
+{% set version = "0.13.6" %}
+{% set sha256 = "26a7927e57baf873fd70778ed2517ea233875310597aa802742c5420bf78fa68" %}
 
 package:
   name: {{ name|lower }}
@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=3.5
     - setuptools
+    - versioneer-518
     - pip
 
   run:
