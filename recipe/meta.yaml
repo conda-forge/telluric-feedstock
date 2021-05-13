@@ -1,6 +1,6 @@
 {% set name = "telluric" %}
-{% set version = "0.13.6" %}
-{% set sha256 = "26a7927e57baf873fd70778ed2517ea233875310597aa802742c5420bf78fa68" %}
+{% set version = "0.13.7" %}
+{% set sha256 = "746b5a5846a6be032587ee9170db594923b39ced0602b22a251fba4163a56ea7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   noarch: python
 
