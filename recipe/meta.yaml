@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - setuptools
     - versioneer-518
     - pip
 
   run:
-    - python >=3.5
+    - python >=3.6
     - affine
     - dsnparse
     - fiona >=1.8.4,<2
@@ -32,7 +32,7 @@ requirements:
     - ipyleaflet
     - pyproj
     - shapely >=1.6.3,<2
-    - rasterio >=1.0.21,<2
+    - rasterio >=1.2.0,<2
     - pillow
     - mercantile >=0.10.0
     - matplotlib-base
