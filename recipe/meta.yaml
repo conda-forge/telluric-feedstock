@@ -26,7 +26,6 @@ requirements:
   run:
     - python >=3.6
     - affine
-    - dsnparse
     - fiona >=1.8.4,<2
     - folium >=0.6.0
     - ipyleaflet
