@@ -1,11 +1,11 @@
-About telluric
-==============
+About telluric-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/telluric-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/satellogic/telluric
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/telluric-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interactive geospatial data manipulation in Python
 
